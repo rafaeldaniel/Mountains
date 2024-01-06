@@ -33,11 +33,12 @@
 
 .body-content {
   margin: 0px;
+  padding-bottom: 100px;
 
-  .mountain-page {
+  .mountain-header-page {
     background-size: cover;
-    background-position:center;
-    height: 500px;
+    background-position: center;
+    height: 600px;
     width: 100%;
     margin: 0px;
   }
@@ -48,6 +49,7 @@
   margin-left: 80px;
   display: flex;
   flex-direction: column;
+  margin-top: 80px;
 
   h1 {
     font-size: 50px;
@@ -56,7 +58,7 @@
     margin-bottom: 10px;
   }
 
-  h4{
+  h4 {
     font-size: 24px;
     color: white;
     font-weight: 500;
@@ -66,15 +68,153 @@
   .btn-btn1 {
     width: 140px;
     height: 60px;
-    background-color: #11235A;
+    background-color: #11235a;
     box-shadow: none;
     border: none;
+    border-radius: 15px;
 
-    a{
+    a {
       font-size: 16px;
       font-weight: 600;
       text-decoration: none;
-      color:#FF004D ;
+      color: #ffffff;
     }
+  }
+}
+
+.mountain-services-section {
+  background-color: #c4dfdf;
+  padding-top: 55px;
+  .our-services {
+    padding-bottom: 85px;
+    .our-services-title {
+      margin-bottom: 65px;
+      h2 {
+        font-size: 35px;
+        text-align: center;
+      }
+    }
+    .blurb-section {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      .blurb-element {
+        max-width: 300px;
+        background-color: #43766c;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 0px;
+        border-radius: 15px;
+
+        .blurb-title {
+          font-size: 22px;
+          font-weight: 600;
+        }
+
+        img {
+          max-width: 60px;
+        }
+
+        .blurb-content {
+          font-size: 16px;
+          font-weight: 500;
+          margin: auto 65px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+.about-us-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .about-us {
+    h2 {
+      font-size: 35px;
+      font-weight: 700;
+    }
+  }
+
+  p {
+    font-size: 24px;
+    width: 700px;
+  }
+
+  .about-us-btn {
+    background-color: red;
+    box-shadow: none;
+    border: none;
+    width: 240px;
+    height: 60px;
+    border-radius: 30px;
+
+    a {
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+    }
+  }
+
+  .about-us-btn:hover {
+    background-color: blue;
+  }
+}
+
+.mountain-prices-section {
+  background-color: #99dd99fd;
+  padding: 20px 10px;
+  .our-prices {
+    h2 {
+      font-size: 35px;
+      text-align: center;
+    }
+  }
+
+  .blurb-prices-section {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 30px;
+    .prices-elements {
+      width: 300px;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 25px 0px;
+      border: 5px solid #fe822c;
+      border-radius: 15px;
+    }
+    .blurb-title {
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    img {
+      max-width: 60px;
+    }
+
+    .blurb-price {
+      font-size: 30px;
+      font-weight: 700;
+      color: #fa6902fd;
+      margin: auto 65px;
+      text-align: center;
+    }
+
+    .blurb-content{
+      font-size: 18px;
+      font-weight: 600;
+      color: red;
+    }
+
   }
 }
